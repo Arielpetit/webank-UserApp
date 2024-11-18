@@ -1,10 +1,11 @@
 {
-  "homepage": "https://arielpetit.github.io/webank-userapp",
+  "homepage": "https://arielpetit.github.io/webank-userapp/#",
   "name": "webank-userapp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
