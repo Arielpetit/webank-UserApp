@@ -1,9 +1,11 @@
 {
+  "homepage": "https://github.com/arielpetit/webank-userapp",
   "name": "webank-userapp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "test": "vitest",
@@ -46,6 +48,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.6",
     "fake-indexeddb": "^6.0.0",
+    "gh-pages": "^6.2.0",
     "happy-dom": "^15.11.0",
     "jsdom": "^25.0.1",
     "postcss": "^8.4.47",
